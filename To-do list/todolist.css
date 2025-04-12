@@ -1,0 +1,131 @@
+body{
+    text-align: center;
+    background-color: hsl(0, 0%, 65%);
+}
+
+
+h1{
+    font-family: Verdana, Arial;
+    text-decoration: underline;
+    color: hsl(120, 78%, 30%);
+}
+
+#input{
+    border: none;
+    font-family: monospace;
+    width: 300px;
+    height: 30px;
+    font-size: 15px;
+    border-radius: 5px;
+    color: hsl(0, 0%, 45%);
+    outline: none;
+    margin: 0 5px 0 0;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+label{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Helvetica;
+    color: hsl(33, 99%, 36%);
+    margin: 0 5px 0 0; 
+}
+
+#add{
+    border: none;
+    border-radius: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    margin: 0 5px 0 0;
+    padding-top: 4px;
+    padding-bottom: 6px;
+    padding-right: 9px;
+    background-color: hsl(116, 73%, 46%);
+    box-shadow: 2px 2px 2px black;
+}
+#add:hover{
+    background-color: hsl(116, 73%, 51%);
+}
+#add:active{
+    background-color: hsl(116, 73%, 56%);
+}
+
+#clearAll{
+    border: none;
+    border-radius: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    margin: 0 5px 0 0;
+    padding-top: 4px;
+    padding-bottom: 6px;
+    padding-right: 9px;
+    background-color: hsl(0, 93%, 48%);
+    box-shadow: 2px 2px 2px black;
+}
+#clearAll:hover{
+    background-color: hsl(0, 93%, 53%);
+}
+#clearAll:active{
+    background-color: hsl(0, 93%, 58%);
+}
+
+
+#tasks{
+    margin: 90px;
+    font-family: Tahoma;
+    background-color: rgb(158, 152, 153);
+    padding: 0.5px;
+    border-radius: 20px;
+    width: 400px;
+    justify-self: center;
+    box-shadow: 2px 2px 2px rgb(113, 113, 113);
+}
+
+
+.incomplete{
+    margin: 4px 10px;
+    border: 4px solid white;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: hsl(9, 100%, 64%);
+    color: rgb(227, 10, 10);
+    font-size: 16px;
+    text-align: left;
+    font-weight: bold;
+}
+.incomplete:hover{
+    background-color: hsl(9, 100%, 69%);
+    transition: background-color 0.3s ease-in-out;
+    transform: scale(1.03);
+
+}
+.incomplete:active{
+    background-color: hsl(9, 100%, 74%);
+    transition: background-color 0.3s ease-in-out;
+}
+
+
+
+.complete{
+    margin: 4px 10px;
+    border: 4px solid white;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: hsl(100, 73.80%, 43.30%);
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    text-align: left;
+    font-weight: bold;
+}
+.complete:hover{
+    background-color: hsl(100, 73.80%, 48.30%);
+    transition: background-color 0.3s ease-in-out;
+    transform: scale(1.03);
+}
+.complete:active{
+    background-color: hsl(100, 73.80%, 53.30%);
+    transition: background-color 0.3s ease-in-out;
+}
