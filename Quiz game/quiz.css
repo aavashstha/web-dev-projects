@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap');
+
+
+body{
+    background-image: linear-gradient(to bottom, #f0f0f0, #d0d0d0);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#startGame{
+    border-radius: 20px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 1.5rem;
+    border: none;
+    background: linear-gradient(135deg, #00FFB2, #00B2FF);
+    box-shadow: 2px 2px 2px black;
+    color: white;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+#startGame:hover{
+    filter: brightness(105%);
+    transform: scale(1.05);
+    transition: filter ease-in 0.2s;
+    transition: transform ease-in 0.2s;
+}
+
+#startGame:active{
+    filter: brightness(110%);
+}
+
+
+#game{
+    width: 500px;
+    height: 500px;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+    background-image: linear-gradient(to right, #8ac4ff, #64b5f6);
+}
+
+
+h1{
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    font-family: Verdana;
+    color: rgba(0, 0, 255, 0.688);
+    text-shadow: 1px 1px 1px grey;
+    text-decoration: underline;
+}
+
+#score{
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: bold;
+    font-family: 'Quicksand', sans-serif;
+    color: #4b5563;
+}
+
+#question{
+    font-weight: bold;
+    color: rgb(122, 110, 110);
+    font-family: 'Lucida Sans';
+    font-size: 1.4rem;
+}
+
+.options{
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 1.1rem;
+    font-family: monospace;
+    font-weight: bold;
+    background: linear-gradient(to right, #fdfbfb, #ebedee);
+    color: #b76e79;
+    border: 4px solid hsl(0, 1%, 61%);
+}
+.options:hover{
+    filter: brightness(98%);
+    transform: scale(1.05);
+    transition: filter ease-in 0.2s;
+    transition: transform ease-in 0.2s;
+}
+
+#next{
+    margin-top: 30px;
+    margin-bottom: 0;
+    text-align: center;
+    display: flex;
+    justify-self: center;
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: hsl(120, 73%, 75%);
+    border-radius: 20px;
+    border: none;
+    color: indigo;
+    box-shadow: 2px 2px 2px black;
+}
+#next:hover{
+    background-color: hsl(120, 73%, 80%);
+    transform: scale(1.1);
+    transition: background-color ease-in 0.2s;
+    transition: transform ease-in 0.2s;
+}
+#next:active{
+    background-color: hsl(120, 73%, 85%);
+    transition: background-color ease-in 0.2s;
+}
+
+
+.finish{
+    font-size: 1.8rem;
+    color: hsl(275, 100%, 45%);
+    font-weight: bold;
+    font-family: 'Quicksand', sans-serif;
+    justify-content: center;
+    
+}
+
+#restart{
+    margin-top: 180px;
+    margin-right: 195px;
+    margin-left: 195px;
+    border-radius: 20px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 1.5rem;
+    border: none;
+    background: linear-gradient(135deg, #00FFB2, #00B2FF);
+    box-shadow: 2px 2px 2px black;
+    color: white;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    
+}
+#restart:hover{
+    filter: brightness(105%);
+    transform: scale(1.05);
+    transition: filter ease-in 0.2s;
+    transition: transform ease-in 0.2s;
+}
+
+#restart:active{
+    filter: brightness(110%);
+
+}
